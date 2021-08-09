@@ -3,7 +3,7 @@ import 'package:get/get.dart';
 import 'package:shop_app/component/page_view.dart';
 
 class WelcomeScreenController extends GetxController {
-  final boardController = PageController();
+   final boardController = PageController();
   bool isLast = false;
   final List<BoardingModel> labels = [
     BoardingModel(label: "OnBoardingOne", image: "assets/images/welcome.png"),
